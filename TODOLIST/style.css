@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial;
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: purple;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+}
+
+button {
+    padding: 10px;
+    background: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+li {
+    background: #eee;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
